@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/PIC32MZ_EC/production/Lab11_Cache_Solution.production.elf">                 
+    <memory name="program">                 
+      <units>bytes</units>                 
+      <length>2098304</length>                 
+      <used>21924</used>                     
+      <free>2076380</free>                     
+    </memory>                              
+    <memory name="data">              
+      <units>bytes</units>                 
+      <length>524288</length>                 
+      <used>14424</used>                     
+      <free>509864</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/PIC32MZ2048EFG100/production/Demo6_Basic_Concurrency_Tasks_Timers.production.elf">                 
+    <memory name="program">                 
+      <units>bytes</units>                 
+      <length>2098304</length>                 
+      <used>4316</used>                     
+      <free>2093988</free>                     
+    </memory>                              
+    <memory name="data">              
+      <units>bytes</units>                 
+      <length>524288</length>                 
+      <used>52</used>                     
+      <free>524236</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 

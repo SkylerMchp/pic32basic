@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/PIC32MZ2048ECG100/production/Project7_Game.production.elf">                 
+    <memory name="program">                 
+      <units>bytes</units>                 
+      <length>2098304</length>                 
+      <used>11524</used>                     
+      <free>2086780</free>                     
+    </memory>                              
+    <memory name="data">              
+      <units>bytes</units>                 
+      <length>524288</length>                 
+      <used>272</used>                     
+      <free>524016</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 

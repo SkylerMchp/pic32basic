@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/PIC32MZ2048EFG100/production/Demo5_ADC.production.elf">                 
+    <memory name="program">                 
+      <units>bytes</units>                 
+      <length>2098304</length>                 
+      <used>4572</used>                     
+      <free>2093732</free>                     
+    </memory>                              
+    <memory name="data">              
+      <units>bytes</units>                 
+      <length>524288</length>                 
+      <used>36</used>                     
+      <free>524252</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 

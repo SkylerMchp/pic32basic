@@ -1,0 +1,48 @@
+ 0 
+第一步：将开发工具和板子连接好
+第一步：将开发工具和板子连接好
+True
+ 1 
+第二步：PC上启动MPLAB X IDE程序
+第二步：PC上启动MPLAB X IDE程序
+True
+ 2 
+第三步：打开对应工程
+第三步：打开对应工程
+True
+ 3 
+test dpkg-query command
+dpkg-query -L gcc-arm-linux-gnueabi
+True
+ 4 
+Look  environment var
+echo $PATH
+True
+ 5 
+Add CROSS_COMPILE tool to environment var
+export CROSS_COMPILE=arm-linux-gnueabi-
+True
+ 6 
+Add SAM-BA to the $PATH
+export PATH=$PATH:/home/masters/mpu_training/sam-ba_3.1.4
+True
+ 7 
+Choose the appropriate defconfig
+make sama5d2_xplaineddf_qspi_uboot_defconfig
+True
+ 8 
+setting defconfig
+make menuconfig
+True
+ 9 
+Setting menuconfig
+No data copy
+True
+ 10 
+Make File
+make
+True
+ 11 
+Download something:
+http://www.microchip.com/
+True

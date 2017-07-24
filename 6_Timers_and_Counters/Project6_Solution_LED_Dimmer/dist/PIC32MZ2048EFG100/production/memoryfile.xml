@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/PIC32MZ2048EFG100/production/Project6_Solution_LED_Dimmer.production.elf">                 
+    <memory name="program">                 
+      <units>bytes</units>                 
+      <length>2098304</length>                 
+      <used>4544</used>                     
+      <free>2093760</free>                     
+    </memory>                              
+    <memory name="data">              
+      <units>bytes</units>                 
+      <length>524288</length>                 
+      <used>36</used>                     
+      <free>524252</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 

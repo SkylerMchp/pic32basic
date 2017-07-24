@@ -1,0 +1,297 @@
+	.section .mdebug.abi32
+	.previous
+	.gnu_attribute 4, 3
+	.section	.text,code
+.Ltext0:
+	.cfi_sections	.debug_frame
+	.globl	rgbFillPat
+	.section	.rodata,code
+	.align	2
+	.type	rgbFillPat, @object
+	.size	rgbFillPat, 64
+rgbFillPat:
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	0
+	.byte	-1
+	.byte	-1
+	.byte	-1
+	.byte	-1
+	.byte	-1
+	.byte	-1
+	.byte	-1
+	.byte	-1
+	.byte	-86
+	.byte	85
+	.byte	-86
+	.byte	85
+	.byte	-86
+	.byte	85
+	.byte	-86
+	.byte	85
+	.byte	17
+	.byte	68
+	.byte	0
+	.byte	17
+	.byte	68
+	.byte	0
+	.byte	17
+	.byte	68
+	.byte	-110
+	.byte	69
+	.byte	36
+	.byte	-110
+	.byte	69
+	.byte	36
+	.byte	-110
+	.byte	69
+	.byte	73
+	.byte	-110
+	.byte	36
+	.byte	73
+	.byte	-110
+	.byte	36
+	.byte	73
+	.byte	-110
+	.byte	34
+	.byte	17
+	.byte	34
+	.byte	0
+	.byte	34
+	.byte	17
+	.byte	34
+	.byte	0
+	.byte	17
+	.byte	34
+	.byte	17
+	.byte	0
+	.byte	17
+	.byte	34
+	.byte	17
+	.byte	0
+
+	.comm	rgbOledBmp,512,4
+	.section	.text,code
+.Letext0:
+	.file 1 "c:/program files/microchip/xc32/v1.42/pic32mx/include/machine/int_types.h"
+	.file 2 "e:/\264\375\260\354\312\302\317\356/\315\352\263\311\312\257\300\317\312\246\264\363\321\247\274\306\273\256\310\316\316\361/cml/the-connected-mcu-lab--v1.5-12oct2016-chn/release/modules/11_cpu/lab11_cache_solution/oled.h"
+	.file 3 "e:/\264\375\260\354\312\302\317\356/\315\352\263\311\312\257\300\317\312\246\264\363\321\247\274\306\273\256\310\316\316\361/cml/the-connected-mcu-lab--v1.5-12oct2016-chn/release/modules/11_cpu/lab11_cache_solution/fillpat.c"
+	.section	.debug_info,info
+.Ldebug_info0:
+	.4byte	0x1e2
+	.2byte	0x2
+	.4byte	.Ldebug_abbrev0
+	.byte	0x4
+	.uleb128 0x1
+	.ascii	"GNU C 4.8.3 MPLAB XC32 Compiler v1.42\000"
+	.byte	0x1
+	.ascii	"FillPat.c\000"
+	.ascii	"E:/\264\375\260\354\312\302\317\356/\315\352\263\311\312"
+	.ascii	"\257\300\317\312\246\264\363\321\247\274\306\273\256\310"
+	.ascii	"\316\316\361/CML/The-Connected-MCU-Lab--v1.5-12Oct2016-C"
+	.ascii	"HN/Release/Modules/11_CPU/Lab11_Cache_Solution\000"
+	.4byte	.Ldebug_line0
+	.uleb128 0x2
+	.byte	0x4
+	.byte	0x7
+	.ascii	"unsigned int\000"
+	.uleb128 0x2
+	.byte	0x4
+	.byte	0x7
+	.ascii	"long unsigned int\000"
+	.uleb128 0x2
+	.byte	0x4
+	.byte	0x5
+	.ascii	"long int\000"
+	.uleb128 0x2
+	.byte	0x4
+	.byte	0x5
+	.ascii	"int\000"
+	.uleb128 0x2
+	.byte	0x1
+	.byte	0x6
+	.ascii	"signed char\000"
+	.uleb128 0x3
+	.ascii	"__uint8_t\000"
+	.byte	0x1
+	.byte	0x2f
+	.4byte	0x116
+	.uleb128 0x2
+	.byte	0x1
+	.byte	0x8
+	.ascii	"unsigned char\000"
+	.uleb128 0x2
+	.byte	0x2
+	.byte	0x5
+	.ascii	"short int\000"
+	.uleb128 0x2
+	.byte	0x2
+	.byte	0x7
+	.ascii	"short unsigned int\000"
+	.uleb128 0x2
+	.byte	0x8
+	.byte	0x5
+	.ascii	"long long int\000"
+	.uleb128 0x2
+	.byte	0x8
+	.byte	0x7
+	.ascii	"long long unsigned int\000"
+	.uleb128 0x3
+	.ascii	"BYTE\000"
+	.byte	0x2
+	.byte	0x26
+	.4byte	0x105
+	.uleb128 0x4
+	.4byte	0x175
+	.4byte	0x192
+	.uleb128 0x5
+	.4byte	0x192
+	.2byte	0x1ff
+	.byte	0
+	.uleb128 0x2
+	.byte	0x4
+	.byte	0x7
+	.ascii	"sizetype\000"
+	.uleb128 0x6
+	.ascii	"rgbOledBmp\000"
+	.byte	0x2
+	.byte	0x68
+	.4byte	0x181
+	.byte	0x1
+	.byte	0x5
+	.byte	0x3
+	.4byte	rgbOledBmp
+	.uleb128 0x4
+	.4byte	0x175
+	.4byte	0x1c7
+	.uleb128 0x7
+	.4byte	0x192
+	.byte	0x3f
+	.byte	0
+	.uleb128 0x6
+	.ascii	"rgbFillPat\000"
+	.byte	0x3
+	.byte	0x3e
+	.4byte	0x1e0
+	.byte	0x1
+	.byte	0x5
+	.byte	0x3
+	.4byte	rgbFillPat
+	.uleb128 0x8
+	.4byte	0x1b7
+	.byte	0
+	.section	.debug_abbrev,info
+.Ldebug_abbrev0:
+	.uleb128 0x1
+	.uleb128 0x11
+	.byte	0x1
+	.uleb128 0x25
+	.uleb128 0x8
+	.uleb128 0x13
+	.uleb128 0xb
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x1b
+	.uleb128 0x8
+	.uleb128 0x10
+	.uleb128 0x6
+	.byte	0
+	.byte	0
+	.uleb128 0x2
+	.uleb128 0x24
+	.byte	0
+	.uleb128 0xb
+	.uleb128 0xb
+	.uleb128 0x3e
+	.uleb128 0xb
+	.uleb128 0x3
+	.uleb128 0x8
+	.byte	0
+	.byte	0
+	.uleb128 0x3
+	.uleb128 0x16
+	.byte	0
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0xb
+	.uleb128 0x49
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x4
+	.uleb128 0x1
+	.byte	0x1
+	.uleb128 0x49
+	.uleb128 0x13
+	.uleb128 0x1
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x5
+	.uleb128 0x21
+	.byte	0
+	.uleb128 0x49
+	.uleb128 0x13
+	.uleb128 0x2f
+	.uleb128 0x5
+	.byte	0
+	.byte	0
+	.uleb128 0x6
+	.uleb128 0x34
+	.byte	0
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0xb
+	.uleb128 0x49
+	.uleb128 0x13
+	.uleb128 0x3f
+	.uleb128 0xc
+	.uleb128 0x2
+	.uleb128 0xa
+	.byte	0
+	.byte	0
+	.uleb128 0x7
+	.uleb128 0x21
+	.byte	0
+	.uleb128 0x49
+	.uleb128 0x13
+	.uleb128 0x2f
+	.uleb128 0xb
+	.byte	0
+	.byte	0
+	.uleb128 0x8
+	.uleb128 0x26
+	.byte	0
+	.uleb128 0x49
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.byte	0
+	.section	.debug_aranges,info
+	.4byte	0x14
+	.2byte	0x2
+	.4byte	.Ldebug_info0
+	.byte	0x4
+	.byte	0
+	.2byte	0
+	.2byte	0
+	.4byte	0
+	.4byte	0
+	.section	.debug_line,info
+.Ldebug_line0:
+	.section	.debug_str,info
+	.ident	"GCC: (Microchip Technology) 4.8.3 MPLAB XC32 Compiler v1.42"
+# Begin MCHP vector dispatch table
+# End MCHP vector dispatch table
+# Microchip Technology PIC32 MCU configuration words

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/PIC32MZ2048EFG100/production/Demo6_Timers_PWM.production.elf">                 
+    <memory name="program">                 
+      <units>bytes</units>                 
+      <length>2098304</length>                 
+      <used>3764</used>                     
+      <free>2094540</free>                     
+    </memory>                              
+    <memory name="data">              
+      <units>bytes</units>                 
+      <length>524288</length>                 
+      <used>44</used>                     
+      <free>524244</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 
